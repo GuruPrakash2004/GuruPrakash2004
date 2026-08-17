@@ -1,7 +1,6 @@
-```md
 <!--
   WEB-VERSE DEVELOPER PROFILE
-  Keep the assets/dimensional-web-hero.png image in your repository.
+  Add this README.md and the accompanying assets/ directory to your GitHub profile repository.
 -->
 
 <div align="center">
@@ -86,7 +85,6 @@
   <img src="https://img.shields.io/badge/STATUS-ONLINE-00C6FF?style=for-the-badge&labelColor=07111F" alt="Status online" />
   <img src="https://img.shields.io/badge/MODE-WEB--SLINGING-EA1D2C?style=for-the-badge&labelColor=07111F" alt="Web-slinging mode" />
   <img src="https://img.shields.io/badge/POWER-SCALABLE%20CODE-1769FF?style=for-the-badge&labelColor=07111F" alt="Scalable code power" />
-
   <br /><br />
 
   <a href="https://github.com/GuruPrakash2004?tab=repositories">
@@ -95,6 +93,7 @@
   <a href="https://github.com/GuruPrakash2004?tab=followers">
     <img src="https://img.shields.io/github/followers/GuruPrakash2004?style=for-the-badge&label=WEB%20ALLIES&color=1769FF&labelColor=07111F" alt="GitHub followers" />
   </a>
+
 </div>
 
 ```text
@@ -120,9 +119,6 @@
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=GuruPrakash2004&label=PROFILE+VISITORS&color=00c6ff&style=for-the-badge" alt="Profile visitors" />
-
   <br /><br />
-
   <sub>🕸️ Built in the web of code — one scalable system at a time.</sub>
 </div>
-```
