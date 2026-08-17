@@ -1,6 +1,7 @@
+```md
 <!--
   WEB-VERSE DEVELOPER PROFILE
-  Add this README.md and the accompanying assets/ directory to your GitHub profile repository.
+  Keep the assets/dimensional-web-hero.png image in your repository.
 -->
 
 <div align="center">
@@ -79,26 +80,33 @@
 
 </div>
 
-## 🕸️ Mission Stats: Across the Code-Verse
+## 🕸️ Mission Control: Across the Code-Verse
 
 <div align="center">
   <img src="https://img.shields.io/badge/STATUS-ONLINE-00C6FF?style=for-the-badge&labelColor=07111F" alt="Status online" />
   <img src="https://img.shields.io/badge/MODE-WEB--SLINGING-EA1D2C?style=for-the-badge&labelColor=07111F" alt="Web-slinging mode" />
   <img src="https://img.shields.io/badge/POWER-SCALABLE%20CODE-1769FF?style=for-the-badge&labelColor=07111F" alt="Scalable code power" />
+
   <br /><br />
 
-  <a href="https://github.com/GuruPrakash2004">
-    <img height="180" src="https://github-readme-stats.shion.dev/api?username=GuruPrakash2004&show_icons=true&theme=transparent&title_color=EA1D2C&icon_color=00C6FF&text_color=DCE8FF&bg_color=07111F&border_color=EA1D2C&include_all_commits=true&count_private=true&ring_color=1769FF" alt="Guru Prakash's GitHub statistics" />
+  <a href="https://github.com/GuruPrakash2004?tab=repositories">
+    <img src="https://img.shields.io/badge/EXPLORE-MY%20PROJECTS-EA1D2C?style=for-the-badge&logo=github&logoColor=white" alt="Explore Guru Prakash's GitHub projects" />
   </a>
-  <a href="https://github.com/GuruPrakash2004">
-    <img height="180" src="https://github-readme-stats.shion.dev/api/top-langs/?username=GuruPrakash2004&layout=compact&theme=transparent&title_color=00C6FF&text_color=DCE8FF&bg_color=07111F&border_color=1769FF&include_all_commits=true&count_private=true" alt="Top languages" />
+  <a href="https://github.com/GuruPrakash2004?tab=followers">
+    <img src="https://img.shields.io/github/followers/GuruPrakash2004?style=for-the-badge&label=WEB%20ALLIES&color=1769FF&labelColor=07111F" alt="GitHub followers" />
   </a>
+</div>
 
-  <br />
+```text
+╔══════════════════════════════════════════════════════════════╗
+║  ◉ MISSION 01  Design APIs with clarity                      ║
+║  ◉ MISSION 02  Build services that scale                     ║
+║  ◉ MISSION 03  Connect systems through clean contracts       ║
+║  ◉ MISSION 04  Ship meaningful features                      ║
+╚══════════════════════════════════════════════════════════════╝
+```
 
-  <img width="600" src="https://streak-stats.demolab.com?user=GuruPrakash2004&background=07111F&border=EA1D2C&stroke=1769FF&ring=00C6FF&fire=EA1D2C&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=00C6FF&sideLabels=DCE8FF&dates=9DB2CE" alt="GitHub contribution streak" />
-
-  <br />
+<div align="center">
   <sub>🔴 <b>Red</b> = drive &nbsp;·&nbsp; 🔵 <b>Blue</b> = precision &nbsp;·&nbsp; 🕸️ Every commit strengthens the web.</sub>
 </div>
 
@@ -112,6 +120,9 @@
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=GuruPrakash2004&label=PROFILE+VISITORS&color=00c6ff&style=for-the-badge" alt="Profile visitors" />
+
   <br /><br />
+
   <sub>🕸️ Built in the web of code — one scalable system at a time.</sub>
 </div>
+```
