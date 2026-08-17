@@ -4,7 +4,7 @@
 -->
 
 <div align="center">
-  <img src="assets/guru-web-hero.png" alt="Guru Prakash in a red and blue neon web-inspired developer jacket" width="100%" />
+  <img src="assets/guru-web-hero.png" alt="Guru Prakash in a red and blue neon web-inspired developer jacket" width="100%"/>
 
   <br />
 
