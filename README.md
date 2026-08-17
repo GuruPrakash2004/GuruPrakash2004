@@ -79,13 +79,27 @@
 
 </div>
 
-## 📊 Mission Stats
+## 🕸️ Mission Stats: Across the Code-Verse
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.shion.dev/api?username=GuruPrakash2004&theme=neon&hide_border=false&include_all_commits=true&count_private=true" alt="Guru Prakash's GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.shion.dev/api/top-langs/?username=GuruPrakash2004&theme=neon&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top languages" />
+  <img src="https://img.shields.io/badge/STATUS-ONLINE-00C6FF?style=for-the-badge&labelColor=07111F" alt="Status online" />
+  <img src="https://img.shields.io/badge/MODE-WEB--SLINGING-EA1D2C?style=for-the-badge&labelColor=07111F" alt="Web-slinging mode" />
+  <img src="https://img.shields.io/badge/POWER-SCALABLE%20CODE-1769FF?style=for-the-badge&labelColor=07111F" alt="Scalable code power" />
+  <br /><br />
+
+  <a href="https://github.com/GuruPrakash2004">
+    <img height="180" src="https://github-readme-stats.shion.dev/api?username=GuruPrakash2004&show_icons=true&theme=transparent&title_color=EA1D2C&icon_color=00C6FF&text_color=DCE8FF&bg_color=07111F&border_color=EA1D2C&include_all_commits=true&count_private=true&ring_color=1769FF" alt="Guru Prakash's GitHub statistics" />
+  </a>
+  <a href="https://github.com/GuruPrakash2004">
+    <img height="180" src="https://github-readme-stats.shion.dev/api/top-langs/?username=GuruPrakash2004&layout=compact&theme=transparent&title_color=00C6FF&text_color=DCE8FF&bg_color=07111F&border_color=1769FF&include_all_commits=true&count_private=true" alt="Top languages" />
+  </a>
+
   <br />
-  <img src="https://streak-stats.demolab.com/?user=GuruPrakash2004&theme=neon&hide_border=false" alt="GitHub streak" />
+
+  <img width="600" src="https://streak-stats.demolab.com?user=GuruPrakash2004&background=07111F&border=EA1D2C&stroke=1769FF&ring=00C6FF&fire=EA1D2C&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=00C6FF&sideLabels=DCE8FF&dates=9DB2CE" alt="GitHub contribution streak" />
+
+  <br />
+  <sub>🔴 <b>Red</b> = drive &nbsp;·&nbsp; 🔵 <b>Blue</b> = precision &nbsp;·&nbsp; 🕸️ Every commit strengthens the web.</sub>
 </div>
 
 ## ✍️ Signal from the Web
