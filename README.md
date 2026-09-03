@@ -119,52 +119,42 @@
 </p>
 
 ---
-
-<!-- GitHub Stats -->
-
 <h2 align="center">📊 GitHub Stats</h2>
 
 <p align="center">
-  <img
+  <img 
     src="https://github-readme-stats.vercel.app/api?username=GuruPrakash2004&show_icons=true&theme=tokyonight&hide_border=true"
     height="180"
-    alt="Guru Prakash GitHub statistics"
   />
 </p>
 
 <p align="center">
-  <img
+  <img 
     src="https://streak-stats.demolab.com/?user=GuruPrakash2004&theme=tokyonight&hide_border=true"
     height="180"
-    alt="Guru Prakash GitHub streak"
   />
 </p>
 
 <p align="center">
-  <img
+  <img 
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuruPrakash2004&layout=compact&theme=tokyonight&hide_border=true"
     height="180"
-    alt="Guru Prakash most used languages"
   />
 </p>
 
 ---
 
-<!-- Contributions -->
-
 <h2 align="center">📈 My Contributions</h2>
 
 <p align="center">
-  <img
+  <img 
     src="https://github-readme-activity-graph.vercel.app/graph?username=GuruPrakash2004&bg_color=07111F&color=00C6FF&line=EA1D2C&point=FFFFFF&area=true&hide_border=true"
-    alt="Guru Prakash GitHub contribution graph"
   />
 </p>
 
 <p align="center">
-  <img
+  <img 
     src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=GuruPrakash2004&theme=tokyonight"
-    alt="Guru Prakash contribution summary"
   />
 </p>
 
