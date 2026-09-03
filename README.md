@@ -1,77 +1,142 @@
-<!--
-  WEB-VERSE DEVELOPER PROFILE
-  Add this README.md and the accompanying assets/ directory to your GitHub profile repository.
--->
-<div align="center">
-  <img src="assets/guru-web-hero.png" alt="Guru Prakash in a red and blue neon web-inspired developer jacket" width="100%" />
-  <br />
-  <h1>🕸️ Guru Prakash — Building Beyond the Web</h1>
-  <p><i>Software developer • Backend architect • Full-stack creator</i></p>
-  <a href="https://instagram.com/guru\_prakash.r"><img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-  <a href="https://linkedin.com/in/guruprakash14"><img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:guruprakash832636@gmail.com"><img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-</div>
-<br />
-<table>
-  <tr>
-    <td width="50%" valign="top">
-### 🕷️ About me
-> *“With great code comes great scalability.”*
-- 💻 Software Developer passionate about backend and full-stack development
-- ☕ Building scalable applications with **Java & Spring Boot**
-- 🌐 Experienced with **Vue.js, TypeScript, REST APIs, and Elasticsearch**
-- 🧠 Interested in **Microservices, API Design, and System Architecture**
-- 📚 Always learning and building projects to improve my skills
-    </td>
-    <td width="50%" valign="top">
-### ⚡ Current developer arc
-```text
-01  DESIGN      APIs with clarity
-02  BUILD       systems that scale
-03  CONNECT     services through clean contracts
-04  SHIP        features that matter
-```
+<!-- Banner -->
+
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=17&pause=1000&color=00C6FF&center=true&vCenter=true&width=390&lines=Backend+%E2%86%92+Full-stack;APIs+%E2%80%A2+Microservices+%E2%80%A2+Search;Always+learning%2C+always+building." alt="Developer focus" />
+  <img src="assets/guru-web-hero.png" alt="Guru Prakash developer banner" width="100%" />
 </p>
-    </td>
-  </tr>
+
+<!-- Title -->
+
+<h1 align="center">Hi 👋, I'm Guru Prakash</h1>
+
+---
+
+<!-- About + Image -->
+
+<table width="100%" align="center">
+<tr>
+
+<td width="55%" valign="top">
+
+<h2>👨‍💻 About Me</h2>
+
+- 💻 Software Developer passionate about **Backend & Full-Stack Development**
+- ☕ Building scalable applications using **Java & Spring Boot**
+- 🌐 Experienced with **Vue.js, React, TypeScript & REST APIs**
+- 🔎 Working with **Elasticsearch** and modern data technologies
+- 🧠 Interested in **Microservices, API Design & System Architecture**
+- 📚 Always learning, building and improving my development skills
+- ⚡ *With great code comes great scalability.*
+
+<h3>🔗 Connect with me</h3>
+
+<a href="https://linkedin.com/in/guruprakash14">
+  <img src="https://skillicons.dev/icons?i=linkedin" height="40" alt="LinkedIn"/>
+</a>
+
+<a href="https://instagram.com/guru_prakash.r">
+  <img src="https://skillicons.dev/icons?i=instagram" height="40" alt="Instagram"/>
+</a>
+
+<a href="mailto:guruprakash832636@gmail.com">
+  <img src="https://skillicons.dev/icons?i=gmail" height="40" alt="Email"/>
+</a>
+
+</td>
+
+<td width="45%" align="center">
+
+<img src="https://media.giphy.com/media/66M6ZwJkTLYikvhrqZ/giphy.gif" width="95%" alt="Coding animation"/>
+
+</td>
+
+</tr>
 </table>
-## 🧬 Tech Stack
-<div align="center">
-### Core languages & frontend
-![Java]\([https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=openjdk\&logoColor=white))
-![Python]\([https://img.shields.io/badge/Python-3178C6?style=for-the-badge&logo=python&logoColor=white](https://img.shields.io/badge/Python-3178C6?style=for-the-badge\&logo=python\&logoColor=white))
-![JavaScript]\([https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge\&logo=javascript\&logoColor=F7DF1E))
-![TypeScript]\([https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white))
-![Tailwind CSS]\([https://img.shields.io/badge/Tailwind\_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge\&logo=tailwind-css\&logoColor=white))
-![daisyUI]\([https://img.shields.io/badge/daisyUI-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white](https://img.shields.io/badge/daisyUI-5A0EF8?style=for-the-badge\&logo=daisyui\&logoColor=white))
-![HTML5]\([https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white))
-![Vue.js]\([https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge\&logo=vuedotjs\&logoColor=white))
-![React]\([https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB))
-![React Router]\([https://img.shields.io/badge/React\_Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge\&logo=reactrouter\&logoColor=white))
-![SASS]\([https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge\&logo=sass\&logoColor=white))
-### Backend, data & tooling
-![Spring]\([https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge\&logo=spring\&logoColor=white))
-![Apache Maven]\([https://img.shields.io/badge/Apache\_Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white](https://img.shields.io/badge/Apache_Maven-C71A36?style=for-the-badge\&logo=apachemaven\&logoColor=white))
-![MySQL]\([https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white))
-![MongoDB]\([https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge\&logo=mongodb\&logoColor=white))
-![Postman]\([https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge\&logo=postman\&logoColor=white))
-![Swagger]\([https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge\&logo=swagger\&logoColor=black))
-</div>
-## 🕸️ Mission Control: Across the Code-Verse
-<div align="center">
-  <img src="https://img.shields.io/badge/STATUS-ONLINE-00C6FF?style=for-the-badge&labelColor=07111F" alt="Status online" />
-  <img src="https://img.shields.io/badge/MODE-WEB--SLINGING-EA1D2C?style=for-the-badge&labelColor=07111F" alt="Web-slinging mode" />
-  <img src="https://img.shields.io/badge/POWER-SCALABLE%20CODE-1769FF?style=for-the-badge&labelColor=07111F" alt="Scalable code power" />
-  <br /><br />
-  <a href="https://github.com/GuruPrakash2004?tab=repositories">
-    <img src="https://img.shields.io/badge/EXPLORE-MY%20PROJECTS-EA1D2C?style=for-the-badge&logo=github&logoColor=white" alt="Explore Guru Prakash's GitHub projects" />
-  </a>
-  <a href="https://github.com/GuruPrakash2004?tab=followers">
-    <img src="https://img.shields.io/github/followers/GuruPrakash2004?style=for-the-badge&label=WEB%20ALLIES&color=1769FF&labelColor=07111F" alt="GitHub followers" />
-  </a>
-</div>
+
+---
+
+<!-- Current Focus -->
+
+<h2 align="center">⚡ Current Developer Focus</h2>
+
+<p align="center">
+  <img 
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=17&pause=1000&color=00C6FF&center=true&vCenter=true&width=500&lines=Backend+%E2%86%92+Full-Stack;Java+%E2%80%A2+Spring+Boot+%E2%80%A2+REST+APIs;Microservices+%E2%80%A2+System+Design+%E2%80%A2+Search;Always+learning%2C+always+building"
+    alt="Developer focus"
+  />
+</p>
+
+---
+
+<!-- Programming Languages -->
+
+<h2 align="center">💻 Programming Languages</h2>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,python,js,ts,c" alt="Programming languages"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C"/>
+</p>
+
+---
+
+<!-- Frontend -->
+
+<h2 align="center">🎨 Frontend Technologies</h2>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,vue,react,tailwind,sass,daisyui" alt="Frontend technologies"/>
+</p>
+
+---
+
+<!-- Backend -->
+
+<h2 align="center">⚙️ Backend & Frameworks</h2>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=spring,maven,nodejs" alt="Backend technologies"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot"/>
+  <img src="https://img.shields.io/badge/REST%20API-005571?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST API"/>
+  <img src="https://img.shields.io/badge/Microservices-000000?style=for-the-badge&logo=microgenetics&logoColor=white" alt="Microservices"/>
+</p>
+
+---
+
+<!-- Databases & Tools -->
+
+<h2 align="center">🗄️ Databases & Developer Tools</h2>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=mysql,mongodb,git,github,linux,postman" alt="Databases and tools"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white" alt="Elasticsearch"/>
+  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger"/>
+  <img src="https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" alt="Apache Maven"/>
+</p>
+
+---
+
+<!-- Mission -->
+
+<h2 align="center">🕸️ Developer Mission</h2>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-ONLINE-00C6FF?style=for-the-badge&labelColor=07111F" alt="Status online"/>
+  <img src="https://img.shields.io/badge/MODE-BUILDING-EA1D2C?style=for-the-badge&labelColor=07111F" alt="Building mode"/>
+  <img src="https://img.shields.io/badge/POWER-SCALABLE%20CODE-1769FF?style=for-the-badge&labelColor=07111F" alt="Scalable code"/>
+</p>
+
 ```text
 ╔══════════════════════════════════════════════════════════════╗
 ║  ◉ MISSION 01  Design APIs with clarity                      ║
@@ -80,16 +145,109 @@
 ║  ◉ MISSION 04  Ship meaningful features                      ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
-<div align="center">
-  <sub>🔴 <b>Red</b> = drive  ·  🔵 <b>Blue</b> = precision  ·  🕸️ Every commit strengthens the web.</sub>
-</div>
-## ✍️ Signal from the Web
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=merko" alt="Developer quote of the day" />
-</div>
-<br />
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=GuruPrakash2004&label=PROFILE+VISITORS&color=00c6ff&style=for-the-badge" alt="Profile visitors" />
-  <br /><br />
+
+---
+
+<!-- GitHub Stats -->
+
+<h2 align="center">📊 GitHub Stats</h2>
+
+<p align="center">
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=GuruPrakash2004&show_icons=true&theme=tokyonight&hide_border=true"
+    height="180"
+    alt="Guru Prakash GitHub stats"
+  />
+</p>
+
+<p align="center">
+  <img 
+    src="https://streak-stats.demolab.com/?user=GuruPrakash2004&theme=tokyonight&hide_border=true"
+    height="180"
+    alt="Guru Prakash GitHub streak"
+  />
+</p>
+
+<p align="center">
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuruPrakash2004&layout=compact&theme=tokyonight&hide_border=true"
+    height="180"
+    alt="Guru Prakash top languages"
+  />
+</p>
+
+---
+
+<!-- Contributions -->
+
+<h2 align="center">📈 My Contributions</h2>
+
+<p align="center">
+  <img 
+    src="https://github-readme-activity-graph.vercel.app/graph?username=GuruPrakash2004&bg_color=07111F&color=00C6FF&line=EA1D2C&point=FFFFFF&area=true&hide_border=true"
+    alt="Guru Prakash GitHub contribution graph"
+  />
+</p>
+
+<p align="center">
+  <img 
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=GuruPrakash2004&theme=tokyonight"
+    alt="Guru Prakash contribution summary"
+  />
+</p>
+
+---
+
+<!-- Projects -->
+
+<h2 align="center">🚀 Explore My Work</h2>
+
+<p align="center">
+
+<a href="https://github.com/GuruPrakash2004?tab=repositories">
+  <img 
+    src="https://img.shields.io/badge/EXPLORE-MY%20PROJECTS-EA1D2C?style=for-the-badge&logo=github&logoColor=white"
+    alt="Explore my projects"
+  />
+</a>
+
+<a href="https://github.com/GuruPrakash2004?tab=followers">
+  <img 
+    src="https://img.shields.io/github/followers/GuruPrakash2004?style=for-the-badge&label=WEB%20ALLIES&color=1769FF&labelColor=07111F"
+    alt="GitHub followers"
+  />
+</a>
+
+</p>
+
+---
+
+<!-- Quote -->
+
+<h2 align="center">✍️ Developer Quote</h2>
+
+<p align="center">
+  <i>"Code. Debug. Learn. Build something amazing."</i>
+</p>
+
+<p align="center">
+  <img 
+    src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=merko"
+    alt="Developer quote"
+  />
+</p>
+
+---
+
+<!-- Profile Visitors -->
+
+<p align="center">
+  <img 
+    src="https://komarev.com/ghpvc/?username=GuruPrakash2004&label=PROFILE+VISITORS&color=00c6ff&style=for-the-badge"
+    alt="Profile visitors"
+  />
+</p>
+
+<p align="center">
   <sub>🕸️ Built in the web of code — one scalable system at a time.</sub>
-</div>
+</p>
