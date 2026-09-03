@@ -1,105 +1,77 @@
-\<!-- Banner -->
-
-\<p align="center">
-&#x20; \<img src="assets/guru-web-hero.png" alt="Guru Prakash developer banner" width="100%" />
-\</p>
-
-\<!-- Title -->
-
-\<h1 align="center">Hi 👋, I'm Guru Prakash\</h1>
-
-\<p align="center">
-&#x20; \<i>Software Developer • Backend Developer • Full-Stack Creator\</i>
-\</p>
-
----
-
-\<!-- About + Image -->
-
-\<table width="100%" align="center">
-\<tr>
-\<td width="55%" valign="top">
-
-\<h2>👨‍💻 About Me\</h2>
-
-- 💻 I'm a **Software Developer** passionate about backend and full-stack development
+<!--
+  WEB-VERSE DEVELOPER PROFILE
+  Add this README.md and the accompanying assets/ directory to your GitHub profile repository.
+-->
+<div align="center">
+  <img src="assets/guru-web-hero.png" alt="Guru Prakash in a red and blue neon web-inspired developer jacket" width="100%" />
+  <br />
+  <h1>🕸️ Guru Prakash — Building Beyond the Web</h1>
+  <p><i>Software developer • Backend architect • Full-stack creator</i></p>
+  <a href="https://instagram.com/guru\_prakash.r"><img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://linkedin.com/in/guruprakash14"><img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:guruprakash832636@gmail.com"><img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</div>
+<br />
+<table>
+  <tr>
+    <td width="50%" valign="top">
+### 🕷️ About me
+> *“With great code comes great scalability.”*
+- 💻 Software Developer passionate about backend and full-stack development
 - ☕ Building scalable applications with **Java & Spring Boot**
 - 🌐 Experienced with **Vue.js, TypeScript, REST APIs, and Elasticsearch**
 - 🧠 Interested in **Microservices, API Design, and System Architecture**
 - 📚 Always learning and building projects to improve my skills
-- ⚡ *With great code comes great scalability.*
-
-\<h3>🔗 Connect with me\</h3>
-
-\<a href="[https://linkedin.com/in/guruprakash14](https://linkedin.com/in/guruprakash14)">
-&#x20; \<img src="[https://skillicons.dev/icons?i=linkedin](https://skillicons.dev/icons?i=linkedin)" height="40"/>
-\</a>
-\<a href="[https://instagram.com/guru\_prakash.r](https://instagram.com/guru_prakash.r)">
-&#x20; \<img src="[https://skillicons.dev/icons?i=instagram](https://skillicons.dev/icons?i=instagram)" height="40"/>
-\</a>
-\<a href="mailto\:guruprakash832636\@gmail.com">
-&#x20; \<img src="[https://skillicons.dev/icons?i=gmail](https://skillicons.dev/icons?i=gmail)" height="40"/>
-\</a>
-
-\</td>
-
-\<td width="45%" align="center">
-
-\<img src="[https://media.giphy.com/media/66M6ZwJkTLYikvhrqZ/giphy.gif](https://media.giphy.com/media/66M6ZwJkTLYikvhrqZ/giphy.gif)" width="95%" />
-
-\</td>
-\</tr>
-\</table>
-
----
-
-\<!-- Current Focus -->
-
-\<h2 align="center">⚡ Current Developer Arc\</h2>
-
-\<p align="center">
-&#x20; \<img src="[https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=17&pause=1000&color=00C6FF&center=true&vCenter=true&width=500&lines=Backend+%E2%86%92+Full-Stack;APIs+%E2%80%A2+Microservices+%E2%80%A2+Search;Always+learning%2C+always+building](https://readme-typing-svg.demolab.com?font=Fira+Code\&weight=700\&size=17\&pause=1000\&color=00C6FF\&center=true\&vCenter=true\&width=500\&lines=Backend+%E2%86%92+Full-Stack;APIs+%E2%80%A2+Microservices+%E2%80%A2+Search;Always+learning%2C+always+building)" alt="Developer focus" />
-\</p>
-
----
-
-\<!-- Languages -->
-
-\<h2 align="center">💻 Programming Languages\</h2>
-
-\<p align="center">
-&#x20; \<img src="[https://skillicons.dev/icons?i=java,python,js,ts,html,css](https://skillicons.dev/icons?i=java,python,js,ts,html,css)" />
-\</p>
-
-\<p align="center">
-&#x20; \<img src="[https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=openjdk\&logoColor=white)" alt="Java" />
-&#x20; \<img src="[https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)" alt="Python" />
-&#x20; \<img src="[https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)" alt="JavaScript" />
-&#x20; \<img src="[https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)" alt="TypeScript" />
-\</p>
-
----
-
-\<!-- Tech Stack -->
-
-\<h2 align="center">🛠️ Frameworks, Tools and Technologies\</h2>
-
-\<p align="center">
-&#x20; \<img src="[https://skillicons.dev/icons?i=spring,vue,react,tailwind,sass,maven,mysql,mongodb,elasticsearch,postman,swagger,git,github,linux](https://skillicons.dev/icons?i=spring,vue,react,tailwind,sass,maven,mysql,mongodb,elasticsearch,postman,swagger,git,github,linux)" />
-\</p>
-
----
-
-\<!-- Mission -->
-
-\<h2 align="center">🕸️ Developer Mission\</h2>
-
-\<p align="center">
-&#x20; \<img src="[https://img.shields.io/badge/STATUS-ONLINE-00C6FF?style=for-the-badge&labelColor=07111F](https://img.shields.io/badge/STATUS-ONLINE-00C6FF?style=for-the-badge\&labelColor=07111F)" alt="Status online" />
-&#x20; \<img src="[https://img.shields.io/badge/MODE-BUILDING-EA1D2C?style=for-the-badge&labelColor=07111F](https://img.shields.io/badge/MODE-BUILDING-EA1D2C?style=for-the-badge\&labelColor=07111F)" alt="Building mode" />
-&#x20; \<img src="[https://img.shields.io/badge/POWER-SCALABLE%20CODE-1769FF?style=for-the-badge&labelColor=07111F](https://img.shields.io/badge/POWER-SCALABLE%20CODE-1769FF?style=for-the-badge\&labelColor=07111F)" alt="Scalable code" />
-\</p>
-
+    </td>
+    <td width="50%" valign="top">
+### ⚡ Current developer arc
+```text
+01  DESIGN      APIs with clarity
+02  BUILD       systems that scale
+03  CONNECT     services through clean contracts
+04  SHIP        features that matter
+```
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=17&pause=1000&color=00C6FF&center=true&vCenter=true&width=390&lines=Backend+%E2%86%92+Full-stack;APIs+%E2%80%A2+Microservices+%E2%80%A2+Search;Always+learning%2C+always+building." alt="Developer focus" />
+</p>
+    </td>
+  </tr>
+</table>
+## 🧬 Tech Stack
+<div align="center">
+### Core languages & frontend
+![Java]\([https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=openjdk\&logoColor=white))
+![Python]\([https://img.shields.io/badge/Python-3178C6?style=for-the-badge&logo=python&logoColor=white](https://img.shields.io/badge/Python-3178C6?style=for-the-badge\&logo=python\&logoColor=white))
+![JavaScript]\([https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge\&logo=javascript\&logoColor=F7DF1E))
+![TypeScript]\([https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white))
+![Tailwind CSS]\([https://img.shields.io/badge/Tailwind\_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge\&logo=tailwind-css\&logoColor=white))
+![daisyUI]\([https://img.shields.io/badge/daisyUI-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white](https://img.shields.io/badge/daisyUI-5A0EF8?style=for-the-badge\&logo=daisyui\&logoColor=white))
+![HTML5]\([https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white))
+![Vue.js]\([https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge\&logo=vuedotjs\&logoColor=white))
+![React]\([https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB))
+![React Router]\([https://img.shields.io/badge/React\_Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge\&logo=reactrouter\&logoColor=white))
+![SASS]\([https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge\&logo=sass\&logoColor=white))
+### Backend, data & tooling
+![Spring]\([https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge\&logo=spring\&logoColor=white))
+![Apache Maven]\([https://img.shields.io/badge/Apache\_Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white](https://img.shields.io/badge/Apache_Maven-C71A36?style=for-the-badge\&logo=apachemaven\&logoColor=white))
+![MySQL]\([https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white))
+![MongoDB]\([https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge\&logo=mongodb\&logoColor=white))
+![Postman]\([https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge\&logo=postman\&logoColor=white))
+![Swagger]\([https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge\&logo=swagger\&logoColor=black))
+</div>
+## 🕸️ Mission Control: Across the Code-Verse
+<div align="center">
+  <img src="https://img.shields.io/badge/STATUS-ONLINE-00C6FF?style=for-the-badge&labelColor=07111F" alt="Status online" />
+  <img src="https://img.shields.io/badge/MODE-WEB--SLINGING-EA1D2C?style=for-the-badge&labelColor=07111F" alt="Web-slinging mode" />
+  <img src="https://img.shields.io/badge/POWER-SCALABLE%20CODE-1769FF?style=for-the-badge&labelColor=07111F" alt="Scalable code power" />
+  <br /><br />
+  <a href="https://github.com/GuruPrakash2004?tab=repositories">
+    <img src="https://img.shields.io/badge/EXPLORE-MY%20PROJECTS-EA1D2C?style=for-the-badge&logo=github&logoColor=white" alt="Explore Guru Prakash's GitHub projects" />
+  </a>
+  <a href="https://github.com/GuruPrakash2004?tab=followers">
+    <img src="https://img.shields.io/github/followers/GuruPrakash2004?style=for-the-badge&label=WEB%20ALLIES&color=1769FF&labelColor=07111F" alt="GitHub followers" />
+  </a>
+</div>
 ```text
 ╔══════════════════════════════════════════════════════════════╗
 ║  ◉ MISSION 01  Design APIs with clarity                      ║
@@ -108,79 +80,16 @@
 ║  ◉ MISSION 04  Ship meaningful features                      ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
-
----
-
-\<!-- GitHub Stats -->
-
-\<h2 align="center">📊 GitHub Stats\</h2>
-
-\<p align="center">
-&#x20; \<img src="[https://github-readme-stats.vercel.app/api?username=GuruPrakash2004&show\_icons=true&theme=tokyonight](https://github-readme-stats.vercel.app/api?username=GuruPrakash2004\&show_icons=true\&theme=tokyonight)" height="180"/>
-\</p>
-
-\<p align="center">
-&#x20; \<img src="[https://streak-stats.demolab.com/?user=GuruPrakash2004&theme=tokyonight](https://streak-stats.demolab.com/?user=GuruPrakash2004\&theme=tokyonight)" height="180"/>
-\</p>
-
-\<p align="center">
-&#x20; \<img src="[https://github-readme-stats.vercel.app/api/top-langs/?username=GuruPrakash2004&layout=compact&theme=tokyonight](https://github-readme-stats.vercel.app/api/top-langs/?username=GuruPrakash2004\&layout=compact\&theme=tokyonight)" height="180"/>
-\</p>
-
----
-
-\<!-- Contribution Graph -->
-
-\<h2 align="center">📈 Contribution Activity\</h2>
-
-\<p align="center">
-&#x20; \<img src="[https://github-readme-activity-graph.vercel.app/graph?username=GuruPrakash2004&bg\_color=07111F&color=00C6FF&line=EA1D2C&point=FFFFFF&area=true&hide\_border=true](https://github-readme-activity-graph.vercel.app/graph?username=GuruPrakash2004\&bg_color=07111F\&color=00C6FF\&line=EA1D2C\&point=FFFFFF\&area=true\&hide_border=true)" alt="Guru Prakash GitHub contribution graph" />
-\</p>
-
-\<p align="center">
-&#x20; \<img src="[https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=GuruPrakash2004&theme=tokyonight](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=GuruPrakash2004\&theme=tokyonight)" alt="GitHub contribution summary" />
-\</p>
-
----
-
-\<!-- Projects -->
-
-\<h2 align="center">🚀 Explore My Work\</h2>
-
-\<p align="center">
-
-\<a href="[https://github.com/GuruPrakash2004?tab=repositories](https://github.com/GuruPrakash2004?tab=repositories)">
-&#x20; \<img src="[https://img.shields.io/badge/EXPLORE-MY%20PROJECTS-EA1D2C?style=for-the-badge&logo=github&logoColor=white](https://img.shields.io/badge/EXPLORE-MY%20PROJECTS-EA1D2C?style=for-the-badge\&logo=github\&logoColor=white)" alt="Explore my GitHub projects" />
-\</a>
-
-\<a href="[https://github.com/GuruPrakash2004?tab=followers](https://github.com/GuruPrakash2004?tab=followers)">
-&#x20; \<img src="[https://img.shields.io/github/followers/GuruPrakash2004?style=for-the-badge&label=WEB%20ALLIES&color=1769FF&labelColor=07111F](https://img.shields.io/github/followers/GuruPrakash2004?style=for-the-badge\&label=WEB%20ALLIES\&color=1769FF\&labelColor=07111F)" alt="GitHub followers" />
-\</a>
-
-\</p>
-
----
-
-\<!-- Quote -->
-
-\<h2 align="center">💭 Developer Quote\</h2>
-
-\<p align="center">
-&#x20; \<i>"Code. Debug. Learn. Build something amazing."\</i>
-\</p>
-
-\<p align="center">
-&#x20; \<img src="[https://quotes-github-readme.vercel.app/api?type=horizontal&theme=merko](https://quotes-github-readme.vercel.app/api?type=horizontal\&theme=merko)" alt="Developer quote" />
-\</p>
-
----
-
-\<!-- Profile Visitors -->
-
-\<p align="center">
-&#x20; \<img src="[https://komarev.com/ghpvc/?username=GuruPrakash2004&label=PROFILE+VISITORS&color=00c6ff&style=for-the-badge](https://komarev.com/ghpvc/?username=GuruPrakash2004\&label=PROFILE+VISITORS\&color=00c6ff\&style=for-the-badge)" alt="Profile visitors" />
-\</p>
-
-\<p align="center">
-&#x20; \<sub>🕸️ Built in the web of code — one scalable system at a time.\</sub>
-\</p>
+<div align="center">
+  <sub>🔴 <b>Red</b> = drive  ·  🔵 <b>Blue</b> = precision  ·  🕸️ Every commit strengthens the web.</sub>
+</div>
+## ✍️ Signal from the Web
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=merko" alt="Developer quote of the day" />
+</div>
+<br />
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=GuruPrakash2004&label=PROFILE+VISITORS&color=00c6ff&style=for-the-badge" alt="Profile visitors" />
+  <br /><br />
+  <sub>🕸️ Built in the web of code — one scalable system at a time.</sub>
+</div>
