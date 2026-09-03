@@ -19,13 +19,13 @@
 
 <h2>👨‍💻 About Me</h2>
 
-- 💻 Software Developer passionate about **Backend & Full-Stack Development**
-- ☕ Building scalable applications using **Java & Spring Boot**
-- 🌐 Experienced with **Vue.js, React, TypeScript & REST APIs**
-- 🔎 Working with **Elasticsearch** and modern data technologies
-- 🧠 Interested in **Microservices, API Design & System Architecture**
-- 📚 Always learning, building and improving my development skills
-- ⚡ *With great code comes great scalability.*
+- 💻 Software Developer passionate about **Web Development & AI**
+- 🤖 Exploring **Artificial Intelligence and Agentic AI**
+- 🌐 Building applications with **React, Vue.js, TypeScript & JavaScript**
+- 🐍 Working with **Python** for development and AI projects
+- 🧠 Interested in **Full-Stack Development, APIs & AI-powered applications**
+- 📚 Always learning and building projects to improve my skills
+- ⚡ *Code. Learn. Build. Repeat.*
 
 <h3>🔗 Connect with me</h3>
 
@@ -56,12 +56,12 @@
 
 <!-- Current Focus -->
 
-<h2 align="center">⚡ Current Developer Focus</h2>
+<h2 align="center">⚡ Currently Building & Learning</h2>
 
 <p align="center">
-  <img 
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=17&pause=1000&color=00C6FF&center=true&vCenter=true&width=500&lines=Backend+%E2%86%92+Full-Stack;Java+%E2%80%A2+Spring+Boot+%E2%80%A2+REST+APIs;Microservices+%E2%80%A2+System+Design+%E2%80%A2+Search;Always+learning%2C+always+building"
-    alt="Developer focus"
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=17&pause=1000&color=00C6FF&center=true&vCenter=true&width=500&lines=AI+%E2%80%A2+Agentic+AI+%E2%80%A2+Python;React+%E2%80%A2+TypeScript+%E2%80%A2+Vue.js;Full-Stack+Web+Development;Always+learning%2C+always+building"
+    alt="Current developer focus"
   />
 </p>
 
@@ -72,12 +72,12 @@
 <h2 align="center">💻 Programming Languages</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,python,js,ts,c" alt="Programming languages"/>
+  <img src="https://skillicons.dev/icons?i=python,java,js,ts,c" alt="Programming languages"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
   <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C"/>
@@ -87,64 +87,36 @@
 
 <!-- Frontend -->
 
-<h2 align="center">🎨 Frontend Technologies</h2>
+<h2 align="center">🌐 Web & Frontend Technologies</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,vue,react,tailwind,sass,daisyui" alt="Frontend technologies"/>
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vue,tailwind,sass" alt="Frontend technologies"/>
 </p>
 
 ---
 
-<!-- Backend -->
+<!-- AI -->
 
-<h2 align="center">⚙️ Backend & Frameworks</h2>
+<h2 align="center">🤖 AI & Development</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=spring,maven,nodejs" alt="Backend technologies"/>
+  <img src="https://skillicons.dev/icons?i=python" alt="Python"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot"/>
-  <img src="https://img.shields.io/badge/REST%20API-005571?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST API"/>
-  <img src="https://img.shields.io/badge/Microservices-000000?style=for-the-badge&logo=microgenetics&logoColor=white" alt="Microservices"/>
-</p>
-
----
-
-<!-- Databases & Tools -->
-
-<h2 align="center">🗄️ Databases & Developer Tools</h2>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,mongodb,git,github,linux,postman" alt="Databases and tools"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white" alt="Elasticsearch"/>
-  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger"/>
-  <img src="https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" alt="Apache Maven"/>
+  <img src="https://img.shields.io/badge/Artificial%20Intelligence-412991?style=for-the-badge&logo=openai&logoColor=white" alt="Artificial Intelligence"/>
+  <img src="https://img.shields.io/badge/Agentic%20AI-000000?style=for-the-badge&logo=probot&logoColor=white" alt="Agentic AI"/>
 </p>
 
 ---
 
-<!-- Mission -->
+<!-- Tools -->
 
-<h2 align="center">🕸️ Developer Mission</h2>
+<h2 align="center">🛠️ Tools & Technologies</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/STATUS-ONLINE-00C6FF?style=for-the-badge&labelColor=07111F" alt="Status online"/>
-  <img src="https://img.shields.io/badge/MODE-BUILDING-EA1D2C?style=for-the-badge&labelColor=07111F" alt="Building mode"/>
-  <img src="https://img.shields.io/badge/POWER-SCALABLE%20CODE-1769FF?style=for-the-badge&labelColor=07111F" alt="Scalable code"/>
+  <img src="https://skillicons.dev/icons?i=git,github,linux,vscode,postman,mysql,mongodb" alt="Tools and technologies"/>
 </p>
-
-```text
-╔══════════════════════════════════════════════════════════════╗
-║  ◉ MISSION 01  Design APIs with clarity                      ║
-║  ◉ MISSION 02  Build services that scale                     ║
-║  ◉ MISSION 03  Connect systems through clean contracts       ║
-║  ◉ MISSION 04  Ship meaningful features                      ║
-╚══════════════════════════════════════════════════════════════╝
-```
 
 ---
 
@@ -153,15 +125,15 @@
 <h2 align="center">📊 GitHub Stats</h2>
 
 <p align="center">
-  <img 
+  <img
     src="https://github-readme-stats.vercel.app/api?username=GuruPrakash2004&show_icons=true&theme=tokyonight&hide_border=true"
     height="180"
-    alt="Guru Prakash GitHub stats"
+    alt="Guru Prakash GitHub statistics"
   />
 </p>
 
 <p align="center">
-  <img 
+  <img
     src="https://streak-stats.demolab.com/?user=GuruPrakash2004&theme=tokyonight&hide_border=true"
     height="180"
     alt="Guru Prakash GitHub streak"
@@ -169,10 +141,10 @@
 </p>
 
 <p align="center">
-  <img 
+  <img
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuruPrakash2004&layout=compact&theme=tokyonight&hide_border=true"
     height="180"
-    alt="Guru Prakash top languages"
+    alt="Guru Prakash most used languages"
   />
 </p>
 
@@ -183,14 +155,14 @@
 <h2 align="center">📈 My Contributions</h2>
 
 <p align="center">
-  <img 
+  <img
     src="https://github-readme-activity-graph.vercel.app/graph?username=GuruPrakash2004&bg_color=07111F&color=00C6FF&line=EA1D2C&point=FFFFFF&area=true&hide_border=true"
     alt="Guru Prakash GitHub contribution graph"
   />
 </p>
 
 <p align="center">
-  <img 
+  <img
     src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=GuruPrakash2004&theme=tokyonight"
     alt="Guru Prakash contribution summary"
   />
@@ -198,22 +170,105 @@
 
 ---
 
-<!-- Projects -->
+<!-- Mission -->
+
+<h2 align="center">🚀 Developer Mission</h2>
+
+<p align="center">
+
+<img
+  src="https://img.shields.io/badge/STATUS-BUILDING-00C6FF?style=for-the-badge&labelColor=07111F"
+  alt="Status building"
+/>
+
+<img
+  src="https://img.shields.io/badge/MODE-LEARNING-EA1D2C?style=for-the-badge&labelColor=07111F"
+  alt="Learning mode"
+/>
+
+<img
+  src="https://img.shields.io/badge/FOCUS-AI%20%26%20FULL--STACK-1769FF?style=for-the-badge&labelColor=07111F"
+  alt="AI and full-stack focus"
+/>
+
+</p>
+
+```text
+╔══════════════════════════════════════════════════════════════╗
+║  ◉ MISSION 01  Learn modern technologies                     ║
+║  ◉ MISSION 02  Build real-world applications                 ║
+║  ◉ MISSION 03  Explore AI and Agentic AI                     ║
+║  ◉ MISSION 04  Keep improving every day                      ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+---
+
+<!-- Featured Projects -->
+
+<h2 align="center">🔥 Featured Projects</h2>
+
+<p align="center">
+
+<a href="https://github.com/GuruPrakash2004/Agentic-AI">
+  <img
+    src="https://img.shields.io/badge/🤖%20AGENTIC--AI-PYTHON-3776AB?style=for-the-badge"
+    alt="Agentic AI project"
+  />
+</a>
+
+<a href="https://github.com/GuruPrakash2004/blogs-react-ts">
+  <img
+    src="https://img.shields.io/badge/📝%20BLOGS-REACT%20%2B%20TS-3178C6?style=for-the-badge"
+    alt="Blogs React TypeScript project"
+  />
+</a>
+
+<a href="https://github.com/GuruPrakash2004/spendX">
+  <img
+    src="https://img.shields.io/badge/💰%20SPENDX-VUE-4FC08D?style=for-the-badge"
+    alt="SpendX project"
+  />
+</a>
+
+</p>
+
+<p align="center">
+
+<a href="https://github.com/GuruPrakash2004/chatBot">
+  <img
+    src="https://img.shields.io/badge/🤖%20CHATBOT-HTML-E34F26?style=for-the-badge"
+    alt="ChatBot project"
+  />
+</a>
+
+<a href="https://github.com/GuruPrakash2004/react-filterssWith_paginations">
+  <img
+    src="https://img.shields.io/badge/⚛️%20REACT%20FILTERS-TYPESCRIPT-3178C6?style=for-the-badge"
+    alt="React filters project"
+  />
+</a>
+
+</p>
+
+---
+
+<!-- Explore -->
 
 <h2 align="center">🚀 Explore My Work</h2>
 
 <p align="center">
 
 <a href="https://github.com/GuruPrakash2004?tab=repositories">
-  <img 
+  <img
     src="https://img.shields.io/badge/EXPLORE-MY%20PROJECTS-EA1D2C?style=for-the-badge&logo=github&logoColor=white"
-    alt="Explore my projects"
+    alt="Explore my GitHub projects"
   />
 </a>
 
 <a href="https://github.com/GuruPrakash2004?tab=followers">
-  <img 
-    src="https://img.shields.io/github/followers/GuruPrakash2004?style=for-the-badge&label=WEB%20ALLIES&color=1769FF&labelColor=07111F"
+  <img
+    src="https://img.shields.io/github/followers/GuruPrakash2004?style=for-the-badge&label=FOLLOWERS&color=1769FF&labelColor=07111F"
     alt="GitHub followers"
   />
 </a>
@@ -224,14 +279,12 @@
 
 <!-- Quote -->
 
-<h2 align="center">✍️ Developer Quote</h2>
-
 <p align="center">
   <i>"Code. Debug. Learn. Build something amazing."</i>
 </p>
 
 <p align="center">
-  <img 
+  <img
     src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=merko"
     alt="Developer quote"
   />
@@ -242,12 +295,12 @@
 <!-- Profile Visitors -->
 
 <p align="center">
-  <img 
+  <img
     src="https://komarev.com/ghpvc/?username=GuruPrakash2004&label=PROFILE+VISITORS&color=00c6ff&style=for-the-badge"
     alt="Profile visitors"
   />
 </p>
 
 <p align="center">
-  <sub>🕸️ Built in the web of code — one scalable system at a time.</sub>
+  <sub>🕸️ Built with curiosity — one project at a time.</sub>
 </p>
