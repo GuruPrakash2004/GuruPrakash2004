@@ -5,13 +5,6 @@
 </p>
 
 <p align="center">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=00C6FF&center=true&vCenter=true&width=620&lines=Full-Stack+Developer+%E2%80%A2+AI+Builder;React+%E2%80%A2+Next.js+%E2%80%A2+TypeScript+%E2%80%A2+Vue;Python+%E2%80%A2+FastAPI+%E2%80%A2+Spring+Boot;RAG+%E2%80%A2+GenAI+%E2%80%A2+Agentic+AI"
-    alt="Typing intro"
-  />
-</p>
-
-<p align="center">
   <a href="mailto:guruprakash832636@gmail.com">
     <img src="assets/hire-me.svg" width="100%" alt="Open to full-time roles: Full-Stack Developer and AI and GenAI builder. Email me."/>
   </a>
@@ -230,25 +223,21 @@ Blog application built with React and TypeScript.
 <h2 align="center">📊 GitHub Stats</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=GuruPrakash2004&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170" alt="GitHub stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuruPrakash2004&layout=compact&theme=tokyonight&hide_border=true" height="170" alt="Top languages"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=GuruPrakash2004&theme=tokyonight&hide_border=true" height="170" alt="GitHub streak"/>
+  <img src="https://raw.githubusercontent.com/GuruPrakash2004/GuruPrakash2004/output/stats.svg" width="49%" alt="GitHub stats: contributions, streaks, repos, stars and followers"/>
+  <img src="https://raw.githubusercontent.com/GuruPrakash2004/GuruPrakash2004/output/languages.svg" width="49%" alt="Most used languages"/>
 </p>
 
 <h2 align="center">📈 My Contributions</h2>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=GuruPrakash2004&bg_color=07111F&color=00C6FF&line=EA1D2C&point=FFFFFF&area=true&hide_border=true" alt="Contribution graph"/>
+  <img src="https://raw.githubusercontent.com/GuruPrakash2004/GuruPrakash2004/output/activity.svg" width="100%" alt="Contribution activity over the last 31 days"/>
 </p>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GuruPrakash2004/GuruPrakash2004/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GuruPrakash2004/GuruPrakash2004/output/github-snake.svg" />
-    <img src="https://raw.githubusercontent.com/GuruPrakash2004/GuruPrakash2004/output/github-snake-dark.svg" alt="Snake eating my contribution graph" />
+    <img src="https://raw.githubusercontent.com/GuruPrakash2004/GuruPrakash2004/output/github-snake-dark.svg" width="100%" alt="Snake eating my contribution graph" />
   </picture>
 </p>
 
@@ -295,4 +284,4 @@ Blog application built with React and TypeScript.
   <sub>🕸️ Built with curiosity — one project at a time.</sub>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C6FF,50:1769FF,100:EA1D2C&height=120&section=footer&animation=twinkling" width="100%" alt=""/>
+<img src="assets/footer.svg" width="100%" alt=""/>
