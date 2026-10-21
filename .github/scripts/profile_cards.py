@@ -148,6 +148,7 @@ def activity_svg(d):
     left, right, top, bottom = 60, 45, 70, 50
     pw, ph = w - left - right, h - top - bottom
     mx = max([c for _, c in days] + [4])
+    mx = -(-mx // 4) * 4  # round up to a multiple of 4 so axis labels are even
     step = pw / (len(days) - 1)
     pts = [(left + i * step, top + ph - c / mx * ph) for i, (_, c) in enumerate(days)]
     line = " ".join(f"{x:.1f},{y:.1f}" for x, y in pts)
