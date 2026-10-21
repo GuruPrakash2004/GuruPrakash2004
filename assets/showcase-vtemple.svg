@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="300" viewBox="0 0 440 300">
+  <style>
+    .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .in { opacity: 0; animation: in .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes in { from { opacity: 0; transform: translateX(-12px); } to { opacity: 1; transform: translateX(0); } }
+    .pop { opacity: 0; animation: pop .5s ease-out forwards; }
+    @keyframes pop { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    .live { animation: live 1.6s ease-in-out infinite; }
+    @keyframes live { 0%,100% { opacity: 1; } 50% { opacity: .3; } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07111F"/><stop offset="1" stop-color="#0B1D36"/></linearGradient>
+    <linearGradient id="bd" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="440" y2="300">
+      <stop offset="0" stop-color="#EA1D2C"/><stop offset=".5" stop-color="#FFB547"/><stop offset="1" stop-color="#EA1D2C"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 220.0 150.0" to="360 220.0 150.0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="ttl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EA1D2C"/></linearGradient>
+  </defs>
+  <rect x="1.5" y="1.5" width="437" height="297" rx="16" fill="url(#bg)" stroke="url(#bd)" stroke-width="2"/>
+  <g class="sans">
+    <g class="pop" style="animation-delay:.05s"><g transform="translate(24 24)"><rect width="34" height="34" rx="9" fill="#3A1218" stroke="#EA1D2C" stroke-opacity=".6"/>
+      <path d="M17 5 L23 12 H11 Z" fill="#FFB547"/><rect x="9" y="12" width="16" height="3" fill="#FFB547"/><rect x="10" y="15" width="3" height="10" fill="#FFB547"/><rect x="15.5" y="15" width="3" height="10" fill="#FFB547"/><rect x="21" y="15" width="3" height="10" fill="#FFB547"/><rect x="8" y="25" width="18" height="3" fill="#FFB547"/></g></g>
+    <g class="pop" style="animation-delay:.15s"><text x="70" y="50" fill="url(#ttl)" font-size="24" font-weight="800">vTemple Web</text></g>
+    <g class="pop" style="animation-delay:.3s"><text x="70" y="72" fill="#8B949E" font-size="13">Temple management, rebuilt for the web</text></g>
+    <g class="pop" style="animation-delay:.3s">
+      <circle class="live" cx="348" cy="34" r="4" fill="#3FB950"/>
+      <text x="356" y="38.5" fill="#3FB950" font-size="11" font-weight="700" letter-spacing="1.2">BUILDING</text>
+    </g>
+    <line x1="24" y1="96" x2="416" y2="96" stroke="#1E3A5F"/>
+    <g class="in" style="animation-delay:0.50s"><circle cx="30" cy="128" r="3.5" fill="#EA1D2C"/><text x="42" y="132.5" fill="#C9D6E8" font-size="13.5">Rebuild of a VB.NET desktop app</text></g>
+    <g class="in" style="animation-delay:0.75s"><circle cx="30" cy="152" r="3.5" fill="#EA1D2C"/><text x="42" y="156.5" fill="#C9D6E8" font-size="13.5">Shares the same SQL Server DB</text></g>
+    <g class="in" style="animation-delay:1.00s"><circle cx="30" cy="176" r="3.5" fill="#EA1D2C"/><text x="42" y="180.5" fill="#C9D6E8" font-size="13.5">Old &amp; new apps run side by side</text></g>
+    <g class="in" style="animation-delay:1.25s"><circle cx="30" cy="200" r="3.5" fill="#EA1D2C"/><text x="42" y="204.5" fill="#C9D6E8" font-size="13.5">React + Vite frontend, FastAPI API</text></g>
+    <g transform="translate(300 110)">
+      <rect width="116" height="120" rx="10" fill="#0A1628" stroke="#1E3A5F"/>
+      <text x="10" y="18" fill="#8B949E" font-size="10" font-weight="700" letter-spacing="1">MIGRATION</text>
+      <!-- legacy exe window -->
+      <g><rect x="12" y="30" width="38" height="30" rx="3" fill="#2A2F3A" stroke="#5A6375"/><rect x="12" y="30" width="38" height="7" rx="2" fill="#3C4FB0"/>
+        <text x="31" y="53" text-anchor="middle" fill="#AAB3C5" font-size="8" class="mono">.exe</text></g>
+      <!-- web window -->
+      <g><rect x="66" y="30" width="38" height="30" rx="3" fill="#0D1B2E" stroke="#00C6FF"/><circle cx="71" cy="34" r="1.5" fill="#FF5F56"/><circle cx="76" cy="34" r="1.5" fill="#FFBD2E"/><circle cx="81" cy="34" r="1.5" fill="#27C93F"/>
+        <text x="85" y="53" text-anchor="middle" fill="#00C6FF" font-size="8" class="mono">web</text></g>
+      <!-- data packets flowing -->
+      <g fill="#FFB547">
+        <circle r="2.5" cy="45"><animate attributeName="cx" values="52;64" dur="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="1.2s" repeatCount="indefinite"/></circle>
+        <circle r="2.5" cy="45"><animate attributeName="cx" values="52;64" dur="1.2s" begin=".6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="1.2s" begin=".6s" repeatCount="indefinite"/></circle>
+      </g>
+      <!-- shared DB -->
+      <g transform="translate(58 92)">
+        <ellipse cx="0" cy="-8" rx="14" ry="4" fill="#CC2927"/><rect x="-14" y="-8" width="28" height="14" fill="#A81F1D"/><ellipse cx="0" cy="6" rx="14" ry="4" fill="#A81F1D"/><ellipse cx="0" cy="-8" rx="14" ry="4" fill="none" stroke="#FF6B66"/>
+      </g>
+      <path d="M31 61 Q31 80 44 86" fill="none" stroke="#5A6375" stroke-dasharray="3 3"><animate attributeName="stroke-dashoffset" from="12" to="0" dur="1s" repeatCount="indefinite"/></path>
+      <path d="M85 61 Q85 80 72 86" fill="none" stroke="#00C6FF" stroke-dasharray="3 3"><animate attributeName="stroke-dashoffset" from="12" to="0" dur="1s" repeatCount="indefinite"/></path>
+      <text x="58" y="114" text-anchor="middle" fill="#8B949E" font-size="9">same SQL Server DB</text>
+    </g>
+    <g class="pop" style="animation-delay:1.60s"><rect x="24.0" y="250" width="54.5" height="24" rx="12" fill="#0D1B2E" stroke="#EA1D2C" stroke-opacity=".6"/><text x="51.2" y="266" text-anchor="middle" fill="#E6EDF3" font-size="11.5" font-weight="600">React</text></g>
+    <g class="pop" style="animation-delay:1.72s"><rect x="85.5" y="250" width="47.6" height="24" rx="12" fill="#0D1B2E" stroke="#EA1D2C" stroke-opacity=".6"/><text x="109.3" y="266" text-anchor="middle" fill="#E6EDF3" font-size="11.5" font-weight="600">Vite</text></g>
+    <g class="pop" style="animation-delay:1.84s"><rect x="140.1" y="250" width="68.3" height="24" rx="12" fill="#0D1B2E" stroke="#EA1D2C" stroke-opacity=".6"/><text x="174.2" y="266" text-anchor="middle" fill="#E6EDF3" font-size="11.5" font-weight="600">FastAPI</text></g>
+    <g class="pop" style="animation-delay:1.96s"><rect x="215.4" y="250" width="89.0" height="24" rx="12" fill="#0D1B2E" stroke="#EA1D2C" stroke-opacity=".6"/><text x="259.9" y="266" text-anchor="middle" fill="#E6EDF3" font-size="11.5" font-weight="600">SQL Server</text></g>
+  </g>
+</svg>

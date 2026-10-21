@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280">
+  <style>
+    .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .rise { opacity: 0; animation: rise .9s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+    .float1 { animation: float 6s ease-in-out infinite; }
+    .float2 { animation: float 7.5s ease-in-out infinite reverse; }
+    .float3 { animation: float 5s ease-in-out infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+    .wave { animation: wave 2.2s ease-in-out infinite; transform-origin: 592px 98px; transform-box: view-box; }
+    @keyframes wave { 0%,60%,100% { transform: rotate(0); } 10%,30% { transform: rotate(16deg); } 20%,40% { transform: rotate(-8deg); } }
+    .glow { animation: glow 4s ease-in-out infinite; }
+    @keyframes glow { 0%,100% { opacity: .35; } 50% { opacity: .7; } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050B16"/>
+      <stop offset="1" stop-color="#0A1A33"/>
+    </linearGradient>
+    <linearGradient id="name" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1000" y2="0">
+      <stop offset="0" stop-color="#00C6FF"/>
+      <stop offset="0.3" stop-color="#FFFFFF"/>
+      <stop offset="0.6" stop-color="#1769FF"/>
+      <stop offset="1" stop-color="#00C6FF"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-600 0; 400 0; -600 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="orb1"><stop offset="0" stop-color="#1769FF" stop-opacity=".55"/><stop offset="1" stop-color="#1769FF" stop-opacity="0"/></radialGradient>
+    <radialGradient id="orb2"><stop offset="0" stop-color="#EA1D2C" stop-opacity=".35"/><stop offset="1" stop-color="#EA1D2C" stop-opacity="0"/></radialGradient>
+    <radialGradient id="orb3"><stop offset="0" stop-color="#00C6FF" stop-opacity=".4"/><stop offset="1" stop-color="#00C6FF" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1B2B44" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="fadeGrid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".9"/>
+    </linearGradient>
+    <mask id="gm"><rect width="1000" height="280" fill="url(#fadeGrid)"/></mask>
+    <clipPath id="frame"><rect width="1000" height="280" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="280" fill="url(#bg)"/>
+    <!-- drifting grid -->
+    <g mask="url(#gm)">
+      <rect x="-40" y="-40" width="1080" height="360" fill="url(#grid)">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="40 40" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <!-- glowing orbs -->
+    <circle class="glow" cx="160" cy="60" r="180" fill="url(#orb1)">
+      <animate attributeName="cx" values="160;230;160" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="glow" cx="880" cy="250" r="200" fill="url(#orb2)" style="animation-delay:-2s">
+      <animate attributeName="cy" values="250;200;250" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="760" cy="40" r="140" fill="url(#orb3)" opacity=".6">
+      <animate attributeName="cx" values="760;700;760" dur="14s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- rising particles -->
+    <g fill="#00C6FF">
+      <circle cx="90"  r="2"><animate attributeName="cy" from="300" to="-10" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="7s" repeatCount="indefinite"/></circle>
+      <circle cx="310" r="1.5"><animate attributeName="cy" from="300" to="-10" dur="9s" begin="-3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="9s" begin="-3s" repeatCount="indefinite"/></circle>
+      <circle cx="520" r="2"><animate attributeName="cy" from="300" to="-10" dur="8s" begin="-5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="8s" begin="-5s" repeatCount="indefinite"/></circle>
+      <circle cx="690" r="1.5"><animate attributeName="cy" from="300" to="-10" dur="6.5s" begin="-1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6.5s" begin="-1s" repeatCount="indefinite"/></circle>
+      <circle cx="930" r="2"><animate attributeName="cy" from="300" to="-10" dur="10s" begin="-6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="10s" begin="-6s" repeatCount="indefinite"/></circle>
+    </g>
+    <g fill="#EA1D2C">
+      <circle cx="210" r="1.5"><animate attributeName="cy" from="300" to="-10" dur="11s" begin="-4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.9;0" dur="11s" begin="-4s" repeatCount="indefinite"/></circle>
+      <circle cx="830" r="1.5"><animate attributeName="cy" from="300" to="-10" dur="8.5s" begin="-2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.9;0" dur="8.5s" begin="-2s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- floating code glyphs -->
+    <g class="mono" font-size="15" fill="#3B5B85">
+      <g class="float1"><text x="70" y="230">&lt;/&gt;</text></g>
+      <g class="float2"><text x="880" y="70">{ ai }</text></g>
+      <g class="float3"><text x="820" y="200">=&gt;</text></g>
+      <g class="float2"><text x="120" y="90">def</text></g>
+      <g class="float1"><text x="900" y="245">.tsx</text></g>
+    </g>
+
+    <!-- text -->
+    <g class="sans" text-anchor="middle">
+      <g class="rise" style="animation-delay:.1s">
+        <text x="500" y="92" fill="#8FB8E8" font-size="20" font-weight="600" letter-spacing="1">Hi there, I'm</text>
+      </g>
+      <g class="rise" style="animation-delay:.35s">
+        <text x="500" y="160" fill="url(#name)" font-size="68" font-weight="800" letter-spacing="1">Guru Prakash</text>
+      </g>
+      <g class="rise" style="animation-delay:.7s">
+        <text x="500" y="204" fill="#C9D6E8" font-size="21" font-weight="600">Full-Stack Developer  ·  AI &amp; GenAI Builder</text>
+      </g>
+      <g class="rise" style="animation-delay:1s">
+        <text x="500" y="240" fill="#6E86A6" font-size="15" class="mono" letter-spacing="1">React · Next.js · TypeScript · Python · FastAPI · Spring Boot</text>
+      </g>
+    </g>
+
+    <!-- waving hand, drawn so it never depends on emoji fonts -->
+    <g class="rise" style="animation-delay:.2s">
+      <g class="wave">
+        <g transform="translate(578 68) scale(0.75)" fill="#FFC83D" stroke="#E0A21A" stroke-width="1">
+          <rect x="6" y="6" width="6" height="20" rx="3"/>
+          <rect x="13" y="2" width="6" height="24" rx="3"/>
+          <rect x="20" y="4" width="6" height="22" rx="3"/>
+          <rect x="27" y="9" width="5.5" height="18" rx="2.75"/>
+          <path d="M5 22 Q4 38 18 40 Q32 41 33 26 L33 22 Z"/>
+          <rect x="-2" y="20" width="6" height="15" rx="3" transform="rotate(-40 1 27)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <rect x=".75" y=".75" width="998.5" height="278.5" rx="18" fill="none" stroke="#1E3A5F" stroke-width="1.5"/>
+</svg>

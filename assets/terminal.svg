@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="330" viewBox="0 0 560 330">
+  <style>
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 13.5px; }
+    .p { fill: #00C6FF; font-weight: 700; }
+    .c { fill: #E6EDF3; }
+    .o { fill: #8B949E; }
+    .h { fill: #FFFFFF; font-weight: 700; }
+    .g { fill: #3FB950; }
+    .r { fill: #FF7B72; }
+    .ln { opacity: 0; animation: show .01s forwards; }
+    @keyframes show { to { opacity: 1; } }
+    .cur { animation: blink 1s step-end infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .pulse { animation: pulse 1.6s ease-in-out infinite; transform-origin: 54px 299px; }
+    @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+  </style>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00C6FF"/>
+      <stop offset="1" stop-color="#1769FF"/>
+    </linearGradient>
+    <!-- typing masks: each grows from 0 to full width -->
+    <clipPath id="t1"><rect x="0" y="40" height="40" width="0"><animate attributeName="width" from="0" to="560" begin="0.4s" dur="0.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="t2"><rect x="0" y="95" height="30" width="0"><animate attributeName="width" from="0" to="560" begin="2.0s" dur="0.7s" fill="freeze"/></rect></clipPath>
+    <clipPath id="t3"><rect x="0" y="175" height="30" width="0"><animate attributeName="width" from="0" to="560" begin="4.0s" dur="0.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="t4"><rect x="0" y="255" height="30" width="0"><animate attributeName="width" from="0" to="560" begin="5.9s" dur="0.5s" fill="freeze"/></rect></clipPath>
+  </defs>
+
+  <!-- window -->
+  <rect x="1" y="1" width="558" height="328" rx="12" fill="#0D1117" stroke="url(#edge)" stroke-width="1.5"/>
+  <rect x="1" y="1" width="558" height="34" rx="12" fill="#161B22"/>
+  <rect x="1" y="22" width="558" height="13" fill="#161B22"/>
+  <circle cx="22" cy="18" r="6" fill="#FF5F56"/>
+  <circle cx="42" cy="18" r="6" fill="#FFBD2E"/>
+  <circle cx="62" cy="18" r="6" fill="#27C93F"/>
+  <text x="280" y="22" text-anchor="middle" class="mono o" font-size="12">guru@dev: ~</text>
+
+  <g class="mono">
+    <!-- 1 -->
+    <g clip-path="url(#t1)"><text x="20" y="62"><tspan class="p">❯ </tspan><tspan class="c">whoami</tspan></text></g>
+    <g class="ln" style="animation-delay:1.2s">
+      <text x="20" y="84"><tspan class="h">Guru Prakash</tspan><tspan class="o"> · Full-Stack Developer &amp; AI Builder</tspan></text>
+    </g>
+
+    <!-- 2 -->
+    <g clip-path="url(#t2)"><text x="20" y="114"><tspan class="p">❯ </tspan><tspan class="c">cat now-building.txt</tspan></text></g>
+    <g class="ln" style="animation-delay:2.9s"><text x="20" y="136"><tspan class="g">▸ spritPOS   </tspan><tspan class="o">ERP + POS with AI stock forecasting</tspan></text></g>
+    <g class="ln" style="animation-delay:3.3s"><text x="20" y="157"><tspan class="g">▸ vTemple    </tspan><tspan class="o">legacy desktop app → React + FastAPI</tspan></text></g>
+
+    <!-- 3 -->
+    <g clip-path="url(#t3)"><text x="20" y="194"><tspan class="p">❯ </tspan><tspan class="c">stack --top</tspan></text></g>
+    <g class="ln" style="animation-delay:4.8s"><text x="20" y="216" class="o">React · Next.js · TypeScript · Vue</text></g>
+    <g class="ln" style="animation-delay:5.2s"><text x="20" y="237" class="o">Python · FastAPI · Spring Boot · SQL Server · RAG</text></g>
+
+    <!-- 4 -->
+    <g clip-path="url(#t4)"><text x="20" y="274"><tspan class="p">❯ </tspan><tspan class="c">status</tspan></text></g>
+    <g class="ln" style="animation-delay:6.6s">
+      <circle class="pulse" cx="26" cy="299" r="5" fill="#3FB950"/>
+      <text x="38" y="304"><tspan class="g">Open to full-time roles</tspan><tspan class="o"> · Full-Stack &amp; AI</tspan></text>
+      <rect class="cur" x="376" y="292" width="8" height="15" fill="#00C6FF"/>
+    </g>
+  </g>
+</svg>

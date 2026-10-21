@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="130" viewBox="0 0 840 130">
+  <style>
+    .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .ring { animation: ring 2s ease-out infinite; transform-origin: 52px 65px; }
+    @keyframes ring { 0% { transform: scale(1); opacity: .7; } 100% { transform: scale(2.6); opacity: 0; } }
+    .arrow { animation: nudge 1.4s ease-in-out infinite; }
+    @keyframes nudge { 0%,100% { transform: translateX(0); } 50% { transform: translateX(6px); } }
+    .fade { opacity: 0; animation: fade .8s ease-out forwards; }
+    @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#07111F"/>
+      <stop offset="1" stop-color="#0B1D36"/>
+    </linearGradient>
+    <!-- moving border gradient -->
+    <linearGradient id="border" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="840" y2="0">
+      <stop offset="0" stop-color="#00C6FF"/>
+      <stop offset="0.33" stop-color="#1769FF"/>
+      <stop offset="0.66" stop-color="#EA1D2C"/>
+      <stop offset="1" stop-color="#00C6FF"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-840 0" to="0 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="btn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00C6FF"/>
+      <stop offset="1" stop-color="#1769FF"/>
+    </linearGradient>
+    <!-- shimmer sweep -->
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect x="2" y="2" width="836" height="126" rx="16"/></clipPath>
+  </defs>
+
+  <rect x="2" y="2" width="836" height="126" rx="16" fill="url(#bg)" stroke="url(#border)" stroke-width="2.5"/>
+  <g clip-path="url(#card)">
+    <rect x="-200" y="0" width="200" height="130" fill="url(#shine)" transform="skewX(-20)">
+      <animate attributeName="x" from="-250" to="1100" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- live dot -->
+  <circle class="ring" cx="52" cy="65" r="9" fill="none" stroke="#3FB950" stroke-width="2"/>
+  <circle cx="52" cy="65" r="9" fill="#3FB950"/>
+
+  <g class="sans">
+    <g class="fade" style="animation-delay:.1s">
+      <text x="80" y="54" fill="#3FB950" font-size="13" font-weight="700" letter-spacing="2.5">OPEN TO FULL-TIME ROLES</text>
+    </g>
+    <g class="fade" style="animation-delay:.35s">
+      <text x="80" y="83" fill="#FFFFFF" font-size="22" font-weight="700">Full-Stack Developer · AI &amp; GenAI Builder</text>
+    </g>
+    <g class="fade" style="animation-delay:.6s">
+      <text x="80" y="106" fill="#8B949E" font-size="13.5">React · Next.js · TypeScript · Python · FastAPI · Spring Boot · RAG</text>
+    </g>
+
+    <g class="fade" style="animation-delay:.9s">
+      <rect x="640" y="45" width="172" height="42" rx="21" fill="url(#btn)"/>
+      <text x="704" y="71" fill="#FFFFFF" font-size="15" font-weight="700" text-anchor="middle">Let's talk</text>
+      <g class="arrow"><text x="760" y="72" fill="#FFFFFF" font-size="18" font-weight="700">→</text></g>
+    </g>
+  </g>
+</svg>

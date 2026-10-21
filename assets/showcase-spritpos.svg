@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="300" viewBox="0 0 440 300">
+  <style>
+    .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .in { opacity: 0; animation: in .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes in { from { opacity: 0; transform: translateX(-12px); } to { opacity: 1; transform: translateX(0); } }
+    .pop { opacity: 0; animation: pop .5s ease-out forwards; }
+    @keyframes pop { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    .live { animation: live 1.6s ease-in-out infinite; }
+    @keyframes live { 0%,100% { opacity: 1; } 50% { opacity: .3; } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07111F"/><stop offset="1" stop-color="#0B1D36"/></linearGradient>
+    <linearGradient id="bd" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="440" y2="300">
+      <stop offset="0" stop-color="#00C6FF"/><stop offset=".5" stop-color="#1769FF"/><stop offset="1" stop-color="#00C6FF"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 220.0 150.0" to="360 220.0 150.0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="ttl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#00C6FF"/></linearGradient>
+  </defs>
+  <rect x="1.5" y="1.5" width="437" height="297" rx="16" fill="url(#bg)" stroke="url(#bd)" stroke-width="2"/>
+  <g class="sans">
+    <g class="pop" style="animation-delay:.05s"><g transform="translate(24 24)"><rect width="34" height="34" rx="9" fill="#0E2A47" stroke="#00C6FF" stroke-opacity=".6"/>
+      <path d="M8 14 L10 9 H24 L26 14 Z" fill="#00C6FF"/><rect x="9" y="14" width="16" height="11" rx="1.5" fill="none" stroke="#00C6FF" stroke-width="2"/><rect x="15" y="18" width="4" height="7" fill="#00C6FF"/></g></g>
+    <g class="pop" style="animation-delay:.15s"><text x="70" y="50" fill="url(#ttl)" font-size="24" font-weight="800">spritPOS</text></g>
+    <g class="pop" style="animation-delay:.3s"><text x="70" y="72" fill="#8B949E" font-size="13">Web ERP + POS for retail shops</text></g>
+    <g class="pop" style="animation-delay:.3s">
+      <circle class="live" cx="348" cy="34" r="4" fill="#3FB950"/>
+      <text x="356" y="38.5" fill="#3FB950" font-size="11" font-weight="700" letter-spacing="1.2">BUILDING</text>
+    </g>
+    <line x1="24" y1="96" x2="416" y2="96" stroke="#1E3A5F"/>
+    <g class="in" style="animation-delay:0.50s"><circle cx="30" cy="128" r="3.5" fill="#00C6FF"/><text x="42" y="132.5" fill="#C9D6E8" font-size="13.5">Billing, inventory &amp; purchases</text></g>
+    <g class="in" style="animation-delay:0.75s"><circle cx="30" cy="152" r="3.5" fill="#00C6FF"/><text x="42" y="156.5" fill="#C9D6E8" font-size="13.5">AI stock forecasting (Chronos)</text></g>
+    <g class="in" style="animation-delay:1.00s"><circle cx="30" cy="176" r="3.5" fill="#00C6FF"/><text x="42" y="180.5" fill="#C9D6E8" font-size="13.5">Smart purchase-indent suggestions</text></g>
+    <g class="in" style="animation-delay:1.25s"><circle cx="30" cy="200" r="3.5" fill="#00C6FF"/><text x="42" y="204.5" fill="#C9D6E8" font-size="13.5">Runs on the shop LAN, one server</text></g>
+    <g transform="translate(300 110)">
+      <rect width="116" height="120" rx="10" fill="#0A1628" stroke="#1E3A5F"/>
+      <text x="10" y="18" fill="#8B949E" font-size="10" font-weight="700" letter-spacing="1">FORECAST</text>
+      <g stroke="#1B2B44"><line x1="10" y1="45" x2="106" y2="45"/><line x1="10" y1="70" x2="106" y2="70"/><line x1="10" y1="95" x2="106" y2="95"/></g>
+      <line x1="62" y1="28" x2="62" y2="104" stroke="#3B5B85" stroke-dasharray="3 3"/>
+      <polyline points="12,88 22,78 32,84 42,66 52,72 62,58" fill="none" stroke="#00C6FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="90" stroke-dashoffset="90">
+        <animate attributeName="stroke-dashoffset" values="90;0;0;90" keyTimes="0;.35;.85;1" dur="5s" repeatCount="indefinite"/>
+      </polyline>
+      <polyline points="62,58 72,52 82,56 92,42 104,36" fill="none" stroke="#3FB950" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.35;.45;.85;1" dur="5s" repeatCount="indefinite"/>
+      </polyline>
+      <circle cx="104" cy="36" r="3.5" fill="#3FB950" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.45;.5;.85;1" dur="5s" repeatCount="indefinite"/></circle>
+      <text x="12" y="114" fill="#00C6FF" font-size="9.5">history</text><text x="72" y="114" fill="#3FB950" font-size="9.5">AI</text>
+    </g>
+    <g class="pop" style="animation-delay:1.60s"><rect x="24.0" y="250" width="54.5" height="24" rx="12" fill="#0D1B2E" stroke="#00C6FF" stroke-opacity=".6"/><text x="51.2" y="266" text-anchor="middle" fill="#E6EDF3" font-size="11.5" font-weight="600">React</text></g>
+    <g class="pop" style="animation-delay:1.72s"><rect x="85.5" y="250" width="75.2" height="24" rx="12" fill="#0D1B2E" stroke="#00C6FF" stroke-opacity=".6"/><text x="123.1" y="266" text-anchor="middle" fill="#E6EDF3" font-size="11.5" font-weight="600">Tailwind</text></g>
+    <g class="pop" style="animation-delay:1.84s"><rect x="167.7" y="250" width="68.3" height="24" rx="12" fill="#0D1B2E" stroke="#00C6FF" stroke-opacity=".6"/><text x="201.8" y="266" text-anchor="middle" fill="#E6EDF3" font-size="11.5" font-weight="600">FastAPI</text></g>
+    <g class="pop" style="animation-delay:1.96s"><rect x="243.0" y="250" width="89.0" height="24" rx="12" fill="#0D1B2E" stroke="#00C6FF" stroke-opacity=".6"/><text x="287.5" y="266" text-anchor="middle" fill="#E6EDF3" font-size="11.5" font-weight="600">SQL Server</text></g>
+    <g class="pop" style="animation-delay:2.08s"><rect x="339.0" y="250" width="68.3" height="24" rx="12" fill="#0D1B2E" stroke="#00C6FF" stroke-opacity=".6"/><text x="373.1" y="266" text-anchor="middle" fill="#E6EDF3" font-size="11.5" font-weight="600">PyTorch</text></g>
+  </g>
+</svg>

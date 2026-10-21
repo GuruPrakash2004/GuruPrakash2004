@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="14" viewBox="0 0 900 14">
+  <defs>
+    <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="900" y2="0">
+      <stop offset="0" stop-color="#00C6FF" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#00C6FF"/>
+      <stop offset="0.5" stop-color="#1769FF"/>
+      <stop offset="0.75" stop-color="#EA1D2C"/>
+      <stop offset="1" stop-color="#EA1D2C" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="spark" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="120" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="6" width="900" height="2" rx="1" fill="url(#g)" opacity=".85"/>
+  <rect x="-120" y="5" width="120" height="4" rx="2" fill="url(#spark)">
+    <animate attributeName="x" from="-120" to="900" dur="3s" repeatCount="indefinite"/>
+  </rect>
+</svg>

@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="440" viewBox="0 0 640 440">
+  <style>
+    .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .core { animation: core 3s ease-in-out infinite; transform-origin: 320px 220px; transform-box: view-box; }
+    @keyframes core { 0%,100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+    .halo { animation: halo 3s ease-out infinite; transform-origin: 320px 220px; transform-box: view-box; }
+    @keyframes halo { 0% { transform: scale(1); opacity: .6; } 100% { transform: scale(1.8); opacity: 0; } }
+  </style>
+  <defs>
+    <radialGradient id="bg" cx=".5" cy=".5" r=".6"><stop offset="0" stop-color="#0B1F3A"/><stop offset="1" stop-color="#050B16"/></radialGradient>
+    <linearGradient id="coreG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00C6FF"/><stop offset="1" stop-color="#1769FF"/></linearGradient>
+  </defs>
+  <rect width="640" height="440" rx="18" fill="url(#bg)"/>
+  <rect x=".75" y=".75" width="638.5" height="438.5" rx="18" fill="none" stroke="#1E3A5F" stroke-width="1.5"/>
+
+  <circle cx="320" cy="220" r="100" fill="none" stroke="#1E3A5F" stroke-width="1.5" stroke-dasharray="4 6"/>
+  <circle cx="320" cy="220" r="175" fill="none" stroke="#1E3A5F" stroke-width="1.5" stroke-dasharray="4 6"/>
+
+  <!-- comet on outer track -->
+  <g><animateTransform attributeName="transform" type="rotate" from="0 320 220" to="360 320 220" dur="6s" repeatCount="indefinite"/>
+    <circle cx="320" cy="45" r="3.5" fill="#EA1D2C"/>
+  </g>
+
+  <circle class="halo" cx="320" cy="220" r="46" fill="none" stroke="#00C6FF" stroke-width="2"/>
+  <g class="core">
+    <circle cx="320" cy="220" r="46" fill="url(#coreG)"/>
+    <text x="320" y="231" text-anchor="middle" class="sans" font-size="32" font-weight="800" fill="#fff">GP</text>
+  </g>
+
+  <g class="sans">
+  <g><animateTransform attributeName="transform" type="rotate" from="0 320 220" to="360 320 220" dur="30s" repeatCount="indefinite"/>
+    <g transform="translate(320.0 120.0)"><g>
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="30s" repeatCount="indefinite"/>
+      <rect x="-34.0" y="-15" width="68.0" height="30" rx="15" fill="#0D1B2E" stroke="#61DAFB" stroke-opacity=".75" stroke-width="1.5"/>
+      <circle cx="-20.0" cy="0" r="4" fill="#61DAFB"/>
+      <text x="-10.0" y="4.5" fill="#E6EDF3" font-size="13" font-weight="600">React</text>
+    </g></g>
+    <g transform="translate(415.1 189.1)"><g>
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="30s" repeatCount="indefinite"/>
+      <rect x="-53.0" y="-15" width="106.0" height="30" rx="15" fill="#0D1B2E" stroke="#3178C6" stroke-opacity=".75" stroke-width="1.5"/>
+      <circle cx="-39.0" cy="0" r="4" fill="#3178C6"/>
+      <text x="-29.0" y="4.5" fill="#E6EDF3" font-size="13" font-weight="600">TypeScript</text>
+    </g></g>
+    <g transform="translate(378.8 300.9)"><g>
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="30s" repeatCount="indefinite"/>
+      <rect x="-41.6" y="-15" width="83.2" height="30" rx="15" fill="#0D1B2E" stroke="#FFFFFF" stroke-opacity=".75" stroke-width="1.5"/>
+      <circle cx="-27.6" cy="0" r="4" fill="#FFFFFF"/>
+      <text x="-17.6" y="4.5" fill="#E6EDF3" font-size="13" font-weight="600">Next.js</text>
+    </g></g>
+    <g transform="translate(261.2 300.9)"><g>
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="30s" repeatCount="indefinite"/>
+      <rect x="-26.4" y="-15" width="52.8" height="30" rx="15" fill="#0D1B2E" stroke="#4FC08D" stroke-opacity=".75" stroke-width="1.5"/>
+      <circle cx="-12.4" cy="0" r="4" fill="#4FC08D"/>
+      <text x="-2.4" y="4.5" fill="#E6EDF3" font-size="13" font-weight="600">Vue</text>
+    </g></g>
+    <g transform="translate(224.9 189.1)"><g>
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="30s" repeatCount="indefinite"/>
+      <rect x="-45.4" y="-15" width="90.8" height="30" rx="15" fill="#0D1B2E" stroke="#38BDF8" stroke-opacity=".75" stroke-width="1.5"/>
+      <circle cx="-31.4" cy="0" r="4" fill="#38BDF8"/>
+      <text x="-21.4" y="4.5" fill="#E6EDF3" font-size="13" font-weight="600">Tailwind</text>
+    </g></g>
+  </g>
+  <g><animateTransform attributeName="transform" type="rotate" from="360 320 220" to="0 320 220" dur="45s" repeatCount="indefinite"/>
+    <g transform="translate(320.0 45.0)"><g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="45s" repeatCount="indefinite"/>
+      <rect x="-37.8" y="-15" width="75.6" height="30" rx="15" fill="#0D1B2E" stroke="#FFD43B" stroke-opacity=".75" stroke-width="1.5"/>
+      <circle cx="-23.8" cy="0" r="4" fill="#FFD43B"/>
+      <text x="-13.8" y="4.5" fill="#E6EDF3" font-size="13" font-weight="600">Python</text>
+    </g></g>
+    <g transform="translate(443.7 96.3)"><g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="45s" repeatCount="indefinite"/>
+      <rect x="-41.6" y="-15" width="83.2" height="30" rx="15" fill="#0D1B2E" stroke="#009688" stroke-opacity=".75" stroke-width="1.5"/>
+      <circle cx="-27.6" cy="0" r="4" fill="#009688"/>
+      <text x="-17.6" y="4.5" fill="#E6EDF3" font-size="13" font-weight="600">FastAPI</text>
+    </g></g>
+    <g transform="translate(495.0 220.0)"><g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="45s" repeatCount="indefinite"/>
+      <rect x="-56.8" y="-15" width="113.6" height="30" rx="15" fill="#0D1B2E" stroke="#6DB33F" stroke-opacity=".75" stroke-width="1.5"/>
+      <circle cx="-42.8" cy="0" r="4" fill="#6DB33F"/>
+      <text x="-32.8" y="4.5" fill="#E6EDF3" font-size="13" font-weight="600">Spring Boot</text>
+    </g></g>
+    <g transform="translate(443.7 343.7)"><g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="45s" repeatCount="indefinite"/>
+      <rect x="-53.0" y="-15" width="106.0" height="30" rx="15" fill="#0D1B2E" stroke="#CC2927" stroke-opacity=".75" stroke-width="1.5"/>
+      <circle cx="-39.0" cy="0" r="4" fill="#CC2927"/>
+      <text x="-29.0" y="4.5" fill="#E6EDF3" font-size="13" font-weight="600">SQL Server</text>
+    </g></g>
+    <g transform="translate(320.0 395.0)"><g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="45s" repeatCount="indefinite"/>
+      <rect x="-30.2" y="-15" width="60.4" height="30" rx="15" fill="#0D1B2E" stroke="#ED8B00" stroke-opacity=".75" stroke-width="1.5"/>
+      <circle cx="-16.2" cy="0" r="4" fill="#ED8B00"/>
+      <text x="-6.2" y="4.5" fill="#E6EDF3" font-size="13" font-weight="600">Java</text>
+    </g></g>
+    <g transform="translate(196.3 343.7)"><g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="45s" repeatCount="indefinite"/>
+      <rect x="-26.4" y="-15" width="52.8" height="30" rx="15" fill="#0D1B2E" stroke="#A78BFA" stroke-opacity=".75" stroke-width="1.5"/>
+      <circle cx="-12.4" cy="0" r="4" fill="#A78BFA"/>
+      <text x="-2.4" y="4.5" fill="#E6EDF3" font-size="13" font-weight="600">RAG</text>
+    </g></g>
+    <g transform="translate(145.0 220.0)"><g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="45s" repeatCount="indefinite"/>
+      <rect x="-37.8" y="-15" width="75.6" height="30" rx="15" fill="#0D1B2E" stroke="#FFFFFF" stroke-opacity=".75" stroke-width="1.5"/>
+      <circle cx="-23.8" cy="0" r="4" fill="#FFFFFF"/>
+      <text x="-13.8" y="4.5" fill="#E6EDF3" font-size="13" font-weight="600">Ollama</text>
+    </g></g>
+    <g transform="translate(196.3 96.3)"><g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="45s" repeatCount="indefinite"/>
+      <rect x="-26.4" y="-15" width="52.8" height="30" rx="15" fill="#0D1B2E" stroke="#F05032" stroke-opacity=".75" stroke-width="1.5"/>
+      <circle cx="-12.4" cy="0" r="4" fill="#F05032"/>
+      <text x="-2.4" y="4.5" fill="#E6EDF3" font-size="13" font-weight="600">Git</text>
+    </g></g>
+  </g>
+  </g>
+</svg>
