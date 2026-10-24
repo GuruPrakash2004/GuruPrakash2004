@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195">
+  <style>
+    .in { opacity: 0; animation: in .6s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes in { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: translateX(0); } }
+    .flame { animation: flame 1.4s ease-in-out infinite; transform-origin: 462px 34px; transform-box: view-box; }
+    @keyframes flame { 0%,100% { transform: scale(1); } 50% { transform: scale(1.18); } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07111F"/><stop offset="1" stop-color="#0B1D36"/></linearGradient>
+  </defs>
+  <rect x=".75" y=".75" width="493.5" height="193.5" rx="16" fill="url(#bg)" stroke="#1E3A5F" stroke-width="1.5"/>
+  <g font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">
+    <text x="28" y="38" fill="#FFFFFF" font-size="17" font-weight="700">GitHub Stats</text>
+    <text x="148" y="38" fill="#00C6FF" font-size="12" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace">@GuruPrakash2004</text>
+    <g class="flame"><path d="M462 22 C470 30 470 38 462 46 C454 38 454 30 462 22 Z" fill="#EA1D2C"/><path d="M462 32 C466 36 466 41 462 45 C458 41 458 36 462 32 Z" fill="#FFB547"/></g>
+    <line x1="28" y1="52" x2="467" y2="52" stroke="#1E3A5F"/>
+    <g class="in" style="animation-delay:0.25s">
+      <rect x="28" y="64" width="4" height="20" rx="2" fill="#00C6FF"/>
+      <text x="42" y="79" fill="#8B949E" font-size="12.5">Contributions (last year)</text>
+      <text x="233" y="79" fill="#FFFFFF" font-size="15" font-weight="700" text-anchor="end">219</text>
+    </g>
+    <g class="in" style="animation-delay:0.37s">
+      <rect x="28" y="100" width="4" height="20" rx="2" fill="#EA1D2C"/>
+      <text x="42" y="115" fill="#8B949E" font-size="12.5">Current streak</text>
+      <text x="233" y="115" fill="#FFFFFF" font-size="15" font-weight="700" text-anchor="end">2 days</text>
+    </g>
+    <g class="in" style="animation-delay:0.49s">
+      <rect x="28" y="136" width="4" height="20" rx="2" fill="#FFB547"/>
+      <text x="42" y="151" fill="#8B949E" font-size="12.5">Longest streak</text>
+      <text x="233" y="151" fill="#FFFFFF" font-size="15" font-weight="700" text-anchor="end">8 days</text>
+    </g>
+    <g class="in" style="animation-delay:0.61s">
+      <rect x="262" y="64" width="4" height="20" rx="2" fill="#3FB950"/>
+      <text x="276" y="79" fill="#8B949E" font-size="12.5">Public repos</text>
+      <text x="467" y="79" fill="#FFFFFF" font-size="15" font-weight="700" text-anchor="end">26</text>
+    </g>
+    <g class="in" style="animation-delay:0.73s">
+      <rect x="262" y="100" width="4" height="20" rx="2" fill="#A78BFA"/>
+      <text x="276" y="115" fill="#8B949E" font-size="12.5">Stars earned</text>
+      <text x="467" y="115" fill="#FFFFFF" font-size="15" font-weight="700" text-anchor="end">0</text>
+    </g>
+    <g class="in" style="animation-delay:0.85s">
+      <rect x="262" y="136" width="4" height="20" rx="2" fill="#1769FF"/>
+      <text x="276" y="151" fill="#8B949E" font-size="12.5">Followers</text>
+      <text x="467" y="151" fill="#FFFFFF" font-size="15" font-weight="700" text-anchor="end">0</text>
+    </g>
+  </g>
+</svg>
